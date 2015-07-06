@@ -13,6 +13,8 @@
 		1AA5FE721B33391C00970DFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA5FE711B33391C00970DFA /* Images.xcassets */; };
 		1AA5FE751B33391C00970DFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AA5FE731B33391C00970DFA /* LaunchScreen.xib */; };
 		1AA5FE811B33391D00970DFA /* SwiftL2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA5FE801B33391D00970DFA /* SwiftL2Tests.swift */; };
+		1AA5FE8B1B333C7100970DFA /* NCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA5FE8A1B333C7000970DFA /* NCell.swift */; };
+		7A5787931B4AF0E400D793CE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5787921B4AF0E400D793CE /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		1AA5FE7A1B33391D00970DFA /* SwiftL2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftL2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA5FE7F1B33391D00970DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AA5FE801B33391D00970DFA /* SwiftL2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftL2Tests.swift; sourceTree = "<group>"; };
+		1AA5FE8A1B333C7000970DFA /* NCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NCell.swift; sourceTree = "<group>"; };
+		7A5787921B4AF0E400D793CE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,11 @@
 		1AA5FE671B33391C00970DFA /* SwiftL2 */ = {
 			isa = PBXGroup;
 			children = (
-				1AA5FE6A1B33391C00970DFA /* AppDelegate.swift */,
 				1AA5FE6C1B33391C00970DFA /* ViewController.swift */,
 				1AA5FE6E1B33391C00970DFA /* Main.storyboard */,
-				1AA5FE711B33391C00970DFA /* Images.xcassets */,
-				1AA5FE731B33391C00970DFA /* LaunchScreen.xib */,
 				1AA5FE681B33391C00970DFA /* Supporting Files */,
+				1AA5FE8A1B333C7000970DFA /* NCell.swift */,
+				7A5787921B4AF0E400D793CE /* User.swift */,
 			);
 			path = SwiftL2;
 			sourceTree = "<group>";
@@ -90,6 +93,9 @@
 		1AA5FE681B33391C00970DFA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1AA5FE6A1B33391C00970DFA /* AppDelegate.swift */,
+				1AA5FE731B33391C00970DFA /* LaunchScreen.xib */,
+				1AA5FE711B33391C00970DFA /* Images.xcassets */,
 				1AA5FE691B33391C00970DFA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A5787931B4AF0E400D793CE /* User.swift in Sources */,
 				1AA5FE6D1B33391C00970DFA /* ViewController.swift in Sources */,
+				1AA5FE8B1B333C7100970DFA /* NCell.swift in Sources */,
 				1AA5FE6B1B33391C00970DFA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +417,7 @@
 				1AA5FE861B33391D00970DFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AA5FE871B33391D00970DFA /* Build configuration list for PBXNativeTarget "SwiftL2Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				1AA5FE891B33391D00970DFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
